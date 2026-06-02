@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Community Assist — Turn community into opportunity | Bali</title>
+  <meta name="description" content="Community Assist is a Bali collective that turns community events into education — raising funds so kids who can't afford school, can. Donate or sponsor a child today." />
+  <meta name="theme-color" content="#4661AD" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Community Assist — Turn community into opportunity" />
+  <meta property="og:description" content="A Bali collective turning events into education. Rp 6 million sends one child to school for a whole year. Donate or sponsor a child." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/hero.webp" />
+  <meta property="og:url" content="https://www.communityassistbali.com/" />
+
+  <link rel="icon" href="assets/heart-mark.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/heart-mark.svg" />
+
+  <!-- Fonts: General Sans (display) + Inter (body) + Caveat (marker accent) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@600,700,500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ Icon / doodle sprite ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.5l2.6 5.7 6.2.6-4.7 4.1 1.4 6.1L12 17.8 6.5 19.1l1.4-6.1L3.2 8.8l6.2-.6L12 2.5z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.2l-3.5-3.5L4 14.2l5 5 11-11-1.5-1.5z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><path fill="currentColor" d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11v14z"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3 1 8l11 5 9-4.09V14h2V8L12 3zM5 13.18v3.5l7 3.82 7-3.82v-3.5L12 17l-7-3.82z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path fill="currentColor" d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h13a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6zm0 2h12v13H6a2 2 0 0 0-1 .27V4zm0 15h12v1H6a1 1 0 0 1 0-1z"/></symbol>
+    <symbol id="i-shirt" viewBox="0 0 24 24"><path fill="currentColor" d="M16 2l5 3-2.2 4.2L17 8.4V22H7V8.4L5.2 9.2 3 5l5-3 1.6 1.4a2.6 2.6 0 0 0 4.8 0L16 2z"/></symbol>
+    <symbol id="i-mentor" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm0 2c-4.2 0-8 2.1-8 5.2V22h16v-2.8c0-3.1-3.8-5.2-8-5.2z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5zm-3 8V6a3 3 0 0 1 6 0v3H9z"/></symbol>
+  </svg>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header" id="top">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="Community Assist — home">
+        <img src="assets/logo.svg" alt="" aria-hidden="true" />
+        <span class="brand-name">Community Assist</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#mission">Our Mission</a>
+        <a href="#impact">Impact</a>
+        <a href="#events">The Events</a>
+        <a href="#give">Ways to Give</a>
+      </nav>
+      <div class="nav-right">
+        <a href="#donate" class="btn btn--primary nav-cta">Donate</a>
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-sheet"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- mobile menu -->
+  <div class="mobile-sheet" id="mobile-sheet" role="dialog" aria-modal="true" aria-label="Menu">
+    <a class="m-link" href="#mission">Our Mission</a>
+    <a class="m-link" href="#impact">Impact</a>
+    <a class="m-link" href="#events">The Events</a>
+    <a class="m-link" href="#give">Ways to Give</a>
+    <a class="btn btn--primary btn--lg" href="#donate">Donate</a>
+    <svg class="m-heart" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-heart"/></svg>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ 1 · Hero ============ -->
+    <section class="hero wrap" aria-labelledby="hero-h">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><svg class="heart" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-heart"/></svg> Bali · Community-powered change</p>
+          <h1 class="h1" id="hero-h">Turn community into <span class="underline-doodle">opportunity.</span></h1>
+          <p class="lead">Community Assist is a Bali collective that turns events into education — raising funds so kids who can't afford school, can. Four events a year. One mission: a future for the next generation.</p>
+          <div class="hero-cta">
+            <a href="#donate" class="btn btn--primary btn--lg">Donate</a>
+            <a href="#events" class="btn btn--outline btn--lg">See the 2026 events</a>
+          </div>
+          <p class="trust-chip"><span class="dot"></span><b>Rp 942M+</b> raised to date <span class="dot"></span> <b>500+</b> community members</p>
+        </div>
+        <div class="hero-media reveal d2">
+          <svg class="doodle-star" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-star"/></svg>
+          <div class="hero-frame">
+            <svg class="hero-watermark" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-heart"/></svg>
+            <img src="assets/img/hero.webp" width="1200" height="1296" alt="Community Assist members embracing and celebrating together at an event in Bali" />
+          </div>
+          <div class="hero-badge">
+            <span class="hb-num">5</span>
+            <span class="hb-label">years of community events, run entirely for the kids</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2 · Credibility band ============ -->
+    <section class="cred section section--tight" aria-label="Our impact in numbers">
+      <div class="wrap">
+        <div class="cred-stats">
+          <div class="stat reveal"><div class="stat-num"><span class="accent">Rp 942M+</span></div><div class="stat-label">Total raised to date</div></div>
+          <div class="stat reveal d1"><div class="stat-num">Rp 358M</div><div class="stat-label">Raised in 2025</div></div>
+          <div class="stat reveal d2"><div class="stat-num">500+</div><div class="stat-label">At our 2025 events</div></div>
+          <div class="stat reveal d3"><div class="stat-num">200+</div><div class="stat-label">Bali businesses behind us</div></div>
+        </div>
+        <div class="cred-logos reveal">
+          <p class="ll-label">In partnership with</p>
+          <div class="logo-row">
+            <span class="wordmark">Indosole</span>
+            <span class="wordmark">PNNY</span>
+            <span class="wordmark">Under Armour</span>
+            <span class="wordmark">Nuanu Social Fund</span>
+            <span class="wordmark">Homes by Heffry</span>
+            <span class="wordmark">Project: Black</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3 · Mission ============ -->
+    <section class="section" id="mission" aria-labelledby="mission-h">
+      <div class="wrap">
+        <div class="mission-grid">
+          <div class="mission-copy reveal">
+            <p class="eyebrow">Our Mission</p>
+            <h2 class="h2" id="mission-h">Building bridges between people who want to help and kids who need it.</h2>
+            <p class="lead" style="margin-top:22px">Community Assist is a collective of Indonesian businesses — founded by <strong>Indosole</strong> and <strong>PNNY</strong> — raising funds to empower local communities through education, environment and opportunity.</p>
+            <p style="margin-top:1em;color:#45474D">Everything we raise goes to our partners' scholarship programs, helping children stay in school and build a future for themselves and their families.</p>
+          </div>
+          <div class="mission-media reveal d2">
+            <img src="assets/img/mission.webp" width="900" height="540" alt="A group of young community members with arms around each other on a basketball court in Bali" />
+            <svg class="doodle-heart" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-heart"/></svg>
+          </div>
+        </div>
+
+        <ul class="partners">
+          <li class="partner-card reveal"><div class="p-name">Indosole</div><span class="p-role founding">Founding partner</span><p class="p-desc">Recycled-footwear pioneer, born in Bali.</p></li>
+          <li class="partner-card reveal d1"><div class="p-name">PNNY</div><span class="p-role founding">Founding partner</span><p class="p-desc">Bali's home-grown music collective, est. 2014.</p></li>
+          <li class="partner-card reveal d2"><div class="p-name">Ragam Foundation</div><span class="p-role scholar">Scholarship partner</span><p class="p-desc">"Ragam" means <em>diversity</em> — runs the scholarship program.</p></li>
+          <li class="partner-card reveal d3"><div class="p-name">Green School</div><span class="p-role scholar">Scholarship partner</span><p class="p-desc">Bali's landmark sustainability school.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 4 · Impact stories ============ -->
+    <section class="section" id="impact" aria-labelledby="impact-h">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Stories of Impact</p>
+          <h2 class="h2" id="impact-h">What your support makes possible.</h2>
+        </div>
+        <div class="impact-grid">
+          <article class="story story-feature reveal">
+            <div class="story-img"><img src="assets/img/impact-chintya.webp" width="760" height="1297" alt="Ni Putu Chintya Pratiwi in cap and gown holding a Happy Graduation sign" loading="lazy" /></div>
+            <div class="story-body">
+              <p class="s-tag">From scholarship to graduate</p>
+              <h3 class="s-name">Chintya</h3>
+              <p class="s-text">Ni Putu Chintya Pratiwi just graduated in accounting from Universitas Mahasaraswati Denpasar and landed her first job — while her mum opened a laundry business. One scholarship, a whole family's future.</p>
+            </div>
+          </article>
+          <div class="story-col">
+            <article class="story story-side reveal d1">
+              <div class="story-img"><img src="assets/img/impact-indah.webp" width="720" height="659" alt="Indah, a high-school student in Denpasar" loading="lazy" /></div>
+              <div class="story-body">
+                <p class="s-tag">Top of her class</p>
+                <h3 class="s-name">Indah</h3>
+                <p class="s-text">Keeps top grades at SMA Saraswati Denpasar, leads student council and theatre, and tutors kids to help her parents. She wants to be a tax officer.</p>
+              </div>
+            </article>
+            <article class="story story-side reveal d2">
+              <div class="story-img"><img src="assets/img/impact-wahyu.webp" width="720" height="659" alt="Wahyu, a middle-school student in his school uniform" loading="lazy" /></div>
+              <div class="story-body">
+                <p class="s-tag">Back in the classroom</p>
+                <h3 class="s-name">Wahyu</h3>
+                <p class="s-text">Thanks to Community Assist 2024, Wahyu received a Ragam Foundation scholarship and is now in 8th grade. Another year of support and he'll finish school.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5 · What your gift does ============ -->
+    <section class="section" aria-labelledby="gift-h">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Where your money goes</p>
+          <h2 class="h2" id="gift-h"><span class="mark-yellow">Rp 6 million</span> sends one child to school for a whole year.</h2>
+        </div>
+        <div class="gift-grid">
+          <ul class="benefit-cards">
+            <li class="benefit reveal"><div class="icon-tile t-pink"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-cap"/></svg></div><h3>Quality education</h3><p>A full year of tuition for one student.</p></li>
+            <li class="benefit reveal d1"><div class="icon-tile t-blue"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-book"/></svg></div><h3>Learning materials</h3><p>Books, pens, a backpack — the essentials.</p></li>
+            <li class="benefit reveal d2"><div class="icon-tile t-yellow"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-shirt"/></svg></div><h3>School uniform</h3><p>A complete uniform so they fit in and show up.</p></li>
+            <li class="benefit reveal d3"><div class="icon-tile t-pink"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-mentor"/></svg></div><h3>A dedicated mentor</h3><p>A community manager guiding each child's progress.</p></li>
+          </ul>
+          <div class="gift-panel reveal d2">
+            <div class="donut-wrap">
+              <div class="donut" role="img" aria-label="Scholarship mix: 18 middle-school, 8 high-school, 4 university students"></div>
+              <div class="donut-center"><span class="dc-num">30</span><span class="dc-label">students</span></div>
+            </div>
+            <ul class="donut-legend">
+              <li><span class="swatch" style="background:var(--blue)"></span> 18 middle-school</li>
+              <li><span class="swatch" style="background:var(--orchid)"></span> 8 high-school</li>
+              <li><span class="swatch" style="background:var(--yellow)"></span> 4 university</li>
+            </ul>
+            <p class="transparency"><b>69% of every rupiah</b> goes straight to the scholarship program.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6 · 2026 goal (brand moment) ============ -->
+    <section class="goal section" aria-labelledby="goal-h">
+      <img class="goal-student left" src="assets/img/student-girl.webp" width="460" height="1022" alt="" aria-hidden="true" loading="lazy" />
+      <img class="goal-student right" src="assets/img/student-boy.webp" width="460" height="985" alt="" aria-hidden="true" loading="lazy" />
+      <div class="wrap">
+        <p class="eyebrow"><svg class="heart" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-heart"/></svg> Our 2026 goal</p>
+        <h2 class="goal-num" id="goal-h">Rp 600,000,000</h2>
+        <p class="goal-sub">to fund <strong>30 scholarships</strong> and a dedicated community manager for the year ahead.</p>
+        <!-- PLACEHOLDER progress — see BUILD-NOTES.md. Update data-progress with the real figure before launch. -->
+        <div class="progress">
+          <div class="progress-track"><div class="progress-fill" data-progress="75"></div></div>
+          <div class="progress-meta"><span>Funding in progress</span><span><b>75%</b> toward our goal</span></div>
+        </div>
+        <div class="goal-cta">
+          <a href="#donate" class="btn btn--white btn--lg">Donate</a>
+          <a href="#give" class="btn btn--ghost-light btn--lg">Become a sponsor</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7 · Ways to Give ============ -->
+    <section class="section" id="give" aria-labelledby="give-h">
+      <div class="wrap">
+        <div class="section-head center reveal">
+          <p class="eyebrow" style="justify-content:center">Ways to Give</p>
+          <h2 class="h2" id="give-h">Two ways to change a life. Pick yours.</h2>
+        </div>
+
+        <div class="tab-center reveal">
+          <div class="tabs" role="tablist" aria-label="Ways to give">
+            <button class="tab tab-ind" role="tab" id="tab-ind" aria-selected="true" aria-controls="panel-ind">For individuals</button>
+            <button class="tab tab-biz" role="tab" id="tab-biz" aria-selected="false" aria-controls="panel-biz" tabindex="-1">For businesses</button>
+          </div>
+        </div>
+
+        <!-- Individuals -->
+        <div class="tabpanel active" id="panel-ind" role="tabpanel" aria-labelledby="tab-ind">
+          <div class="give-ind">
+            <div class="give-intro">
+              <h3 class="h3">Give once, or monthly. <br>Any level helps.</h3>
+              <p class="lead" style="margin-top:14px">Every contribution is measured in scholarships — pick a level and see exactly how many kids you send to school.</p>
+              <a href="#donate" class="btn btn--primary btn--lg">Donate as an individual</a>
+            </div>
+            <ul class="ladder">
+              <li class="rung r1"><span class="r-amt">Rp 1M</span><span class="r-val">⅙ of a scholarship</span></li>
+              <li class="rung highlight"><span class="r-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-heart"/></svg> Sponsor a child</span><span class="r-amt">Rp 6M</span><span class="r-val">1 full year of school</span></li>
+              <li class="rung r3"><span class="r-amt">Rp 12M</span><span class="r-val">2 scholarships</span></li>
+              <li class="rung r4"><span class="r-amt">Rp 24M</span><span class="r-val">4 scholarships</span></li>
+              <li class="rung r5"><span class="r-amt">Rp 60M</span><span class="r-val">10 scholarships</span></li>
+              <li class="rung r6"><span class="r-amt">Rp 120M</span><span class="r-val">20 scholarships</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Businesses -->
+        <div class="tabpanel" id="panel-biz" role="tabpanel" aria-labelledby="tab-biz" hidden>
+          <div class="tiers">
+            <article class="tier">
+              <div class="t-name">Community</div>
+              <div class="t-price">Rp 20M</div>
+              <div class="t-schol">3 children's scholarships</div>
+              <ul class="t-feats">
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Logo on event banners</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Small logo on street banners</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> One banner set on-site</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Group post + story mention</li>
+              </ul>
+              <a href="#donate" class="btn btn--outline btn--block">Become a sponsor</a>
+            </article>
+            <article class="tier">
+              <div class="t-name">Game Changer</div>
+              <div class="t-price">Rp 60M</div>
+              <div class="t-schol">10 children's scholarships</div>
+              <ul class="t-feats">
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Logo on posters, tickets & flyers</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Large logo on a banner</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Two banners + a standee</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Live PA announcement</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Dedicated carousel slide + story</li>
+              </ul>
+              <a href="#donate" class="btn btn--outline btn--block">Become a sponsor</a>
+            </article>
+            <article class="tier featured">
+              <span class="t-badge">Most impact</span>
+              <div class="t-name"><svg viewBox="0 0 24 24" width="16" aria-hidden="true"><use href="#i-star"/></svg> Champion</div>
+              <div class="t-price">Rp 120M</div>
+              <div class="t-schol">20 scholarships + event naming rights</div>
+              <ul class="t-feats">
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Largest logo on all materials + halftime</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Premium street-banner placement</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Entrance & court banners + activation booth</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> Live PA + company spotlight</li>
+                <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg> 30s Reel + 8-slide carousel + story</li>
+              </ul>
+              <a href="#donate" class="btn btn--primary btn--block">Become a sponsor</a>
+            </article>
+          </div>
+          <p class="give-biz-cta muted">Prefer a yearly bundle? The <strong>Community Partner</strong> package (Rp 20M/yr) adds full event registration, 2 auction-dinner tickets and quarterly marketing support. <a href="#donate">Talk to us →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8 · The Events ============ -->
+    <section class="section" id="events" aria-labelledby="events-h">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">The 2026 Events</p>
+          <h2 class="h2" id="events-h">Four ways to show up — and give back.</h2>
+        </div>
+        <div class="events-grid">
+          <article class="event-card reveal">
+            <div class="event-img"><span class="event-date">20 Jun 2026</span><img src="assets/img/event-beach.webp" width="800" height="600" alt="People playing beach games on the sand in Bali" loading="lazy" /></div>
+            <div class="event-body"><h3>Beach Games</h3><p class="event-venue">Times Beach Warung</p><p>Dodgeball, a sandcastle contest and a community market by the shore.</p></div>
+          </article>
+          <article class="event-card reveal d1">
+            <div class="event-img"><span class="event-date">12 Sep 2026</span><img src="assets/img/event-merch.webp" width="800" height="384" alt="A long shared pizza on a table at a community gathering" loading="lazy" /></div>
+            <div class="event-body"><h3>Merch Launch</h3><p class="event-venue">Luigi's</p><p>The 2026 merch drop, a pizza-making session and bocce.</p></div>
+          </article>
+          <article class="event-card reveal d2">
+            <div class="event-img"><span class="event-date">24 Oct 2026</span><img src="assets/img/event-basketball.webp" width="800" height="467" alt="Players in a 3-on-3 basketball game" loading="lazy" /></div>
+            <div class="event-body"><h3>3x3 Charity Basketball</h3><p class="event-venue">Our flagship tournament</p><p>Five years running — the event that started it all.</p></div>
+          </article>
+          <article class="event-card reveal d3">
+            <div class="event-img"><span class="event-date">Dec 2026</span><img src="assets/img/event-auction.webp" width="800" height="529" alt="A mirror ball held up to the light at an evening event" loading="lazy" /></div>
+            <div class="event-body"><h3>Auction Night</h3><p class="event-venue">Year-end celebration</p><p>20 exclusive lots, music and dinner to close out the year.</p></div>
+          </article>
+        </div>
+
+        <div class="bepart reveal">
+          <h3>Be part of the day</h3>
+          <p class="bp-sub">There's a way in for everyone — not just a cheque.</p>
+          <div class="bepart-grid">
+            <div class="bp-item"><div class="bp-num"></div><h4>Sponsor or donate</h4><p>Back the day at any level.</p></div>
+            <div class="bp-item"><div class="bp-num"></div><h4>Register a team</h4><p>Rp 1,000,000 — 3 players + 2 reserves.</p></div>
+            <div class="bp-item"><div class="bp-num"></div><h4>Run a workshop</h4><p>Share a skill or presentation.</p></div>
+            <div class="bp-item"><div class="bp-num"></div><h4>Donate a prize</h4><p>For the raffle or auction night.</p></div>
+            <div class="bp-item"><div class="bp-num"></div><h4>Book a stall</h4><p>Sell at the community market.</p></div>
+          </div>
+        </div>
+
+        <div class="past-events reveal">
+          <p class="pe-label">Five years of community — a look back</p>
+          <img src="assets/img/past-events.webp" width="2000" height="1125" alt="A collage of photos from past Community Assist events and basketball tournaments" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9 · Sponsors ============ -->
+    <section class="section" id="sponsors" aria-labelledby="sponsors-h">
+      <div class="wrap">
+        <div class="section-head center reveal">
+          <p class="eyebrow" style="justify-content:center">Our Sponsors</p>
+          <h2 class="h2" id="sponsors-h">Powered by 200+ Bali businesses.</h2>
+          <p class="lead muted" style="margin-top:14px">Every sponsorship is remembered — we make sure our community knows who makes this possible.</p>
+        </div>
+
+        <div class="sponsor-tier reveal">
+          <p class="st-label">Champions</p>
+          <div class="sponsor-grid champions">
+            <div class="sponsor-chip">Homes by Heffry</div>
+            <div class="sponsor-chip">Under Armour</div>
+            <div class="sponsor-chip">Nuanu Social Fund</div>
+            <div class="sponsor-chip">Project: Black</div>
+          </div>
+        </div>
+
+        <div class="sponsor-tier reveal">
+          <p class="st-label">Game Changers</p>
+          <div class="sponsor-grid changers">
+            <div class="sponsor-chip">Oshom</div>
+            <div class="sponsor-chip">YUKI</div>
+            <div class="sponsor-chip">Swich</div>
+            <div class="sponsor-chip">Tacos Aqui</div>
+            <div class="sponsor-chip">Room4Dessert</div>
+            <div class="sponsor-chip">The Boogaloo</div>
+            <div class="sponsor-chip">hey RCG</div>
+            <div class="sponsor-chip">Mason Adventures</div>
+            <div class="sponsor-chip">Better Hospitality</div>
+            <div class="sponsor-chip">Smoke</div>
+          </div>
+        </div>
+
+        <div class="sponsor-tier reveal">
+          <p class="st-label">Community Heroes</p>
+          <div class="sponsor-grid heroes">
+            <div class="sponsor-chip" style="color:var(--blue);border-color:var(--sky)">+ 180 more local businesses</div>
+          </div>
+        </div>
+
+        <p class="sponsor-cta reveal">Want your logo here? <a href="#give">Become a sponsor →</a></p>
+      </div>
+    </section>
+
+    <!-- ============ 10 · Final CTA / How to donate ============ -->
+    <section class="final section" id="donate" aria-labelledby="final-h">
+      <div class="wrap">
+        <div class="final-grid">
+          <div class="reveal">
+            <h2 class="h2" id="final-h">Ready to change a future?</h2>
+            <p class="f-sub">Every gift goes straight to a child's education — 69% direct to the scholarship program. Receipts available on request.</p>
+            <div class="final-cta">
+              <a href="#donate-card" class="btn btn--white btn--lg">Donate</a>
+              <a href="mailto:communityassist@indosole.com" class="talk">Talk to us</a>
+            </div>
+          </div>
+          <div class="bank-card reveal d2" id="donate-card">
+            <div class="bc-head"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-lock"/></svg> Bank transfer details</div>
+            <div class="bank-field">
+              <div><div class="bf-label">Account name</div><div class="bf-value">Ragam Kemanusiaan Indonesia</div></div>
+              <button class="copy-btn" data-copy="Ragam Kemanusiaan Indonesia" aria-label="Copy account name"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-copy"/></svg><span class="copied-tip">Copied!</span></button>
+            </div>
+            <div class="bank-field">
+              <div><div class="bf-label">Account number</div><div class="bf-value">800210750800</div></div>
+              <button class="copy-btn" data-copy="800210750800" aria-label="Copy account number"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-copy"/></svg><span class="copied-tip">Copied!</span></button>
+            </div>
+            <div class="bank-field">
+              <div><div class="bf-label">Bank</div><div class="bf-value">BNI · code 008</div></div>
+              <button class="copy-btn" data-copy="008" aria-label="Copy bank code"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-copy"/></svg><span class="copied-tip">Copied!</span></button>
+            </div>
+            <div class="bank-field">
+              <div><div class="bf-label">SWIFT</div><div class="bf-value">BNIAIDJAXXX</div></div>
+              <button class="copy-btn" data-copy="BNIAIDJAXXX" aria-label="Copy SWIFT code"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-copy"/></svg><span class="copied-tip">Copied!</span></button>
+            </div>
+            <div class="bank-field">
+              <div><div class="bf-label">Bank address</div><div class="bf-value">Canggu Berawa, Jl. Subak Sari No. 11, Tibubeneng, Bali 80361</div></div>
+              <button class="copy-btn" data-copy="Canggu Berawa, Jl. Subak Sari No. 11, Tibubeneng, Bali 80361" aria-label="Copy bank address"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-copy"/></svg><span class="copied-tip">Copied!</span></button>
+            </div>
+            <p class="bank-note">Donating from abroad? SWIFT transfers are supported.</p>
+            <p class="bank-contact"><a href="mailto:communityassist@indosole.com">communityassist@indosole.com</a> · <a href="https://wa.me/6281237609071">+62 812-3760-9071</a></p>
+          </div>
+        </div>
+        <p class="final-signoff reveal">Thank you for being part of Community Assist 2026. <svg viewBox="0 0 24 24" width="22" style="color:var(--yellow);vertical-align:-3px" aria-hidden="true"><use href="#i-heart"/></svg></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="f-logo"><svg class="heart" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-heart"/></svg><span>Community Assist</span></div>
+          <p class="footer-tag">Come · Support · Play.</p>
+          <p class="footer-benef">In support of the Ragam Foundation &amp; Green School Foundation scholarship programs.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="#mission">Our Mission</a>
+          <a href="#impact">Impact</a>
+          <a href="#events">The Events</a>
+          <a href="#give">Ways to Give</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:communityassist@indosole.com">communityassist@indosole.com</a>
+          <a href="https://wa.me/6281237609071">+62 812-3760-9071</a>
+          <a href="https://www.instagram.com/communityassistbali/" target="_blank" rel="noopener">Instagram @communityassistbali</a>
+        </div>
+        <div class="footer-col">
+          <h4>Give</h4>
+          <a href="#donate">How to donate</a>
+          <a href="#give">Sponsor a child</a>
+          <a href="#donate" class="btn btn--primary">Donate</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span><a href="https://www.communityassistbali.com/" target="_blank" rel="noopener">communityassistbali.com</a></span>
+        <span>© 2026 Community Assist · Made with community in Bali</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
