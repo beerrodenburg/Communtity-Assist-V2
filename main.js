@@ -115,4 +115,41 @@
       gio.observe(goal);
     }
   }
+
+  /* ---------- Impact testimonial video ---------- */
+  var storyVideo = doc.querySelector(".story-video");
+  if (storyVideo) {
+    var vid = storyVideo.querySelector("video");
+    var unmuteBtn = storyVideo.querySelector(".video-unmute");
+
+    // Autoplay (muted) only when in view and motion is allowed; pause when out of view.
+    if (vid && !reduce && "IntersectionObserver" in window) {
+      var vio = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { vid.play().catch(function () {}); }
+          else { vid.pause(); }
+        });
+      }, { threshold: 0.4 });
+      vio.observe(vid);
+    }
+
+    // Unmute button: unmute + restart from the top; click again to re-mute.
+    if (vid && unmuteBtn) {
+      unmuteBtn.addEventListener("click", function () {
+        if (vid.muted) {
+          vid.muted = false;
+          vid.currentTime = 0;
+          vid.play().catch(function () {});
+          storyVideo.classList.add("is-unmuted");
+          unmuteBtn.setAttribute("aria-pressed", "true");
+          unmuteBtn.setAttribute("aria-label", "Mute Chintya's testimonial");
+        } else {
+          vid.muted = true;
+          storyVideo.classList.remove("is-unmuted");
+          unmuteBtn.setAttribute("aria-pressed", "false");
+          unmuteBtn.setAttribute("aria-label", "Unmute Chintya's testimonial");
+        }
+      });
+    }
+  }
 })();
