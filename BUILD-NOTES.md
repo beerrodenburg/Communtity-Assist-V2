@@ -18,7 +18,7 @@ The landing page is built and live-previewable by opening **`index.html`** in an
   - `index.html` — the whole page (sticky nav → hero → credibility → mission → impact → gift → 2026 goal → ways to give → events → sponsors → final CTA → footer).
   - `styles.css` — brand tokens (`:root`), type scale, every component, responsive breakpoints, motion.
   - `main.js` — sticky-nav shadow, mobile menu, Ways-to-Give tabs (keyboard accessible), click-to-copy bank fields, scroll-reveal + progress-bar fill.
-  - `assets/logo.svg` — official logo (used in nav). `assets/heart-mark.svg` — striped-heart favicon/motif.
+  - `assets/heart.svg` — official striped heart with the wordmark cropped out, recolored to `currentColor` (used as the `#i-logo-heart` sprite symbol in the nav lockup). `assets/logo-full.svg` — full official logo (heart + "COMMUNITY ASSIST" wordmark), single-color via `currentColor` (used as the `#i-logo-full` sprite symbol in the footer). `assets/heart-mark.svg` — simplified striped-heart favicon/motif.
   - `assets/img/*.webp` — section imagery, cropped from the deck slides and optimised (whole folder ≈ 0.9 MB).
 - **Fonts** load from CDN: **General Sans** (Fontshare, display) + **Inter** (Google, body) + **Caveat** (marker accent). If the site must work fully offline, self-host these.
 
