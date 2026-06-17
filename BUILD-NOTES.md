@@ -9,7 +9,7 @@ The landing page is built and live-previewable by opening **`index.html`** in an
    - To remove the bar entirely instead, delete the `<div class="progress">…</div>` block.
 2. **Verify every number** against the latest from the team (the deck had minor errors):
    - Rp 942M+ raised to date · Rp 358M in 2025 · 500+ attendees · 200+ businesses · Rp 600M goal · 69% to scholarships · scholarship mix 18/8/4.
-3. **Sponsor & partner names are rendered as text, not logos.** The "In partnership with" strip (credibility band) and the sponsor wall use styled wordmarks. Swap in real logo SVGs/PNGs at build for a polished look, and **transcribe the full Community Heroes list from `pages/slide-29.jpg`** — right now it only shows Champions (4) + Game Changers (10) + a "+ 180 more" tile, to avoid publishing unverified business names.
+3. **Sponsor & partner names are rendered as text, not logos.** The "In partnership with" strip (credibility band) and the sponsor wall use styled wordmarks. Swap in real logo SVGs/PNGs at build for a polished look, and **transcribe the full Community Heroes list from `pages/slide-29.jpg`** — right now it only shows Champions (4) + Game Changers (10) + ~38 named Community Heroes + a "+ 150 more" tile (≈202 total, which supports the "200+" figure), to avoid publishing unverified business names.
 
 ## What was built
 
